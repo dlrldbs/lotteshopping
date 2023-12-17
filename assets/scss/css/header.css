@@ -1,0 +1,104 @@
+.header .util {
+  position: relative;
+  padding: 0 20px;
+}
+.header .util .util-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  gap: 16px;
+}
+.header .util .util-list .util-item img {
+  height: 13px;
+}
+.header::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.38;
+}
+.header .header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding: 0 20px;
+}
+.header .header-wrap .gnb .gnb-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  gap: 48px;
+}
+.header .header-wrap .gnb .gnb-list .gnb-item a {
+  font-size: 0.938rem;
+}
+.header .header-wrap .quickmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .header-wrap .quickmenu .menu-quick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #000;
+  width: 180px;
+  border-radius: 50px;
+}
+.header .header-wrap .quickmenu .menu-quick span {
+  font-size: 0.875rem;
+  position: relative;
+}
+.header .header-wrap .quickmenu .menu-quick span::after {
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: url(./images/eyes.gif) contain no-repeat;
+}
+.header .header-wrap .quickmenu .menu_search {
+  margin-left: 5px;
+}
+.header::after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.38;
+}

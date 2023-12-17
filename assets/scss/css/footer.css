@@ -1,0 +1,180 @@
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  color: #acacac;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+.footer .container {
+  position: relative;
+  padding: 0 30px;
+}
+.footer .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 4.1667vw;
+  width: calc(100% - 8.3334vw);
+  height: 1px;
+  background: #ACACAC;
+}
+.footer .container .group-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+.footer .container .group-top .fttop-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+.footer .container .group-top .fttop-wrap .logo {
+  padding-right: 64px;
+}
+.footer .container .group-top .fttop-wrap .fttop-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 37px;
+}
+.footer .container .group-top .fttop-wrap .fttop-list .fttop-item {
+  font-size: 1rem;
+  color: #fff;
+}
+.footer .container .group-lang .lang-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 40px;
+  gap: 26px;
+}
+.footer .container .group-lang .lang-list .lang-item a {
+  position: relative;
+  height: 15px;
+  color: #666;
+}
+.footer .container .group-lang .lang-list .lang-item a img {
+  height: 10px;
+}
+.footer .container .group-lang .lang-list .lang-item a:nth-child(1)::after, .footer .container .group-lang .lang-list .lang-item a:nth-child(2)::after, .footer .container .group-lang .lang-list .lang-item a:nth-child(3)::after, .footer .container .group-lang .lang-list .lang-item a:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 3vw;
+  width: calc(100% - 8.3334vw);
+  height: 1px;
+  background: #ACACAC;
+}
+.footer .container .group-mid {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #acacac;
+  border-bottom: 1px solid #acacac;
+}
+.footer .container .group-mid .ftmid-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px 0;
+  padding-right: 20px;
+  font-size: 0.813rem;
+}
+.footer .container .group-mid .brand-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #acacac;
+}
+.footer .container .group-mid .brand-wrap .lottemall {
+  padding: 15px 32px;
+  height: 100%;
+  border-right: 1px solid #acacac;
+}
+.footer .container .group-mid .brand-wrap .coranshop {
+  padding: 25px 32px;
+  height: 100%;
+  border-right: 1px solid #acacac;
+}
+.footer .container .group-mid .brand-wrap .elstyle {
+  padding: 12px 32px;
+  height: 100%;
+}
+.footer .container .group-mid .socialmedia-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+}
+.footer .container .group-bot {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+.footer .container .group-bot .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+.footer .container .group-bot .info span {
+  font-size: 0.813rem;
+}
+.footer .container .group-bot .award {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+}
+.footer .container .group-bot .award p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+.footer .container .group-bot .copyright {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,186 @@
+.footer{
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    color:#acacac;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    .container{
+        position: relative;
+        padding: 0 30px;
+        @include tablet{
+            padding-bottom: 20px;
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 4.1667vw;
+            width: calc(100% - 8.3334vw);
+            height: 1px;
+            background: #ACACAC;
+        }
+        .group-top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+            .fttop-wrap{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                @include tablet{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .logo{
+                    padding-right: 64px;
+                    @include tablet{
+                        padding-right: 0;
+                    }
+                }
+                .fttop-list{
+                    display: flex;
+                    gap: 37px;
+                    @include tablet {
+                        display: none;
+                    }
+                    .fttop-item{
+                        font-size: 1rem;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .group-lang{
+            .lang-list{
+                display: flex;
+                width: 100%;
+                justify-content: flex-end;
+                margin-bottom: 40px;
+                gap: 26px;
+                @include tablet{
+                    justify-content: center;
+                }
+                .lang-item{
+                    a{
+                        position: relative;
+                        height: 15px;
+                        color: #666;
+                        img{
+                            height: 10px;
+                        }
+                        &:nth-child(1),
+                        &:nth-child(2),
+                        &:nth-child(3),
+                        &:nth-child(4){
+                            &::after{
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left: 3vw;
+                                width: calc(100% - 8.3334vw);
+                                height: 1px;
+                                background: #ACACAC;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+        .group-mid{
+            margin-bottom: 10px;
+            display: flex;
+            border-top: 1px solid #acacac;
+            border-bottom: 1px solid #acacac;
+            @include tablet{
+                flex-direction: column;
+            }
+            .ftmid-list{
+                display: flex;
+                width: 40%;
+                align-self: stretch;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                gap: 10px;
+                padding: 20px 0;
+                padding-right: 20px;
+                font-size: 0.813rem;
+            }
+            .brand-wrap{
+                display: flex;
+                align-items: center;
+                border: 1px solid #acacac;
+                .lottemall{
+                    padding: 15px 32px;
+                    height: 100%;
+                    border-right: 1px solid #acacac;
+                    @include tablet{
+                        flex: 1;
+                    }
+                }
+                .coranshop{
+                    padding: 25px 32px;
+                    height: 100%;
+                    border-right: 1px solid #acacac;
+                    @include tablet{
+                        flex: 1;
+                    }
+                }
+                .elstyle{
+                    padding: 12px 32px;
+                    height: 100%;
+                    @include tablet{
+                        flex: 1;
+                    }
+                }
+            }
+            .socialmedia-list{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 20px;
+            }
+        }
+        .group-bot{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            @include tablet{
+                padding-bottom: 20px;
+            }
+            .info{
+                display: flex;
+                gap: 24px;
+                @include tablet{
+                    flex-direction: column;
+                    gap: 5px;
+                }
+                span{
+                    font-size: 0.813rem;
+                }
+            }
+            .award{
+                display: flex;
+                gap: 18px;
+                p{
+                    display: flex;
+                    gap: 8px;
+                }
+            }
+            @include tablet{
+                overflow: auto;
+            }
+            .copyright{
+                @include desktop{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+}

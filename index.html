@@ -1,0 +1,2414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데백화점</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.26/bundled/lenis.min.js"></script> 
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <header class="header" id="header">
+        <div class="util">
+            <ul class="util-list">
+                <li class="util-item">
+                    <a href="">
+                        <span>
+                            <img src="./assets/images/app.png" alt="">
+                        </span>
+                    </a>
+                </li>
+                <li class="util-item">
+                    <a href="">
+                        <span>
+                            <img src="./assets/images/sitemap.png" alt="">
+                        </span>
+                    </a>
+                </li>
+                <li class="util-item">
+                    <a href="">
+                        <span>
+                            <img src="./assets/images/kr.png" alt="">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-wrap">
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <h1 class="home">
+                <a href="">
+                    <img src="./assets/images/logo.svg" alt="">
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul class="gnb-list">
+                    <li class="gnb-item" data-menu="#menu1">
+                        <a href="">지점안내</a>
+                    </li>
+                    <li class="gnb-item" data-menu="#menu1">
+                        <a href="">쇼핑정보</a>
+                    </li>
+                    <li class="gnb-item" data-menu="#menu2">
+                        <a href="">컬쳐앤라이프</a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="">매거진</a>
+                    </li>
+                    <li class="gnb-item" data-menu="#menu3">
+                        <a href="">고객서비스</a>
+                    </li>
+                    <li class="gnb-item" data-menu="#menu4">
+                        <a href="">ESG</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="quickmenu">
+                <div class="menu-quick">
+                    <div class="wrap">
+                        <span>한 눈에 보는 지점 정보<img src="./assets/images/eyes.gif" alt=""></span>
+                        <span>한 눈에 보는 지점 정보<img src="./assets/images/eyes.gif" alt=""></span>
+                    </div>
+                    <div class="wrap">
+                        <span>한 눈에 보는 지점 정보<img src="./assets/images/eyes.gif" alt=""></span>
+                        <span>한 눈에 보는 지점 정보<img src="./assets/images/eyes.gif" alt=""></span>
+                    </div>
+                </div>
+                <button class="menu_search">
+                    <img src="./assets/images/search.svg" alt="search">
+                </button>
+            </div>
+        </div>
+        <div class="sub-menu">
+            <div class="sub-list-wrap">
+                <ul class="sub-list" id="menu1">
+                    <li class="sub-item1">
+                        <div class="cate">
+                            <a href="">백화점</a>
+                            <a href="">아울렛</a>
+                            <a href="">쇼핑몰</a>
+                        </div>
+                    </li>
+                    <li class="sub-item1">
+                        <ul>
+                            <a href="" class="item-repre">서울점</a>
+                            <li><a href="">잠실점</a></li>
+                            <li><a href="">본점</a></li>
+                            <li><a href="">강남점</a></li>
+                            <li><a href="">건대스타시티점</a></li>
+                            <li><a href="">관악점</a></li>
+                            <li><a href="">김포공항점</a></li>
+                            <li><a href="">노원점</a></li>
+                            <li><a href="">미아점</a></li>
+                            <li><a href="">영등포점</a></li>
+                            <li><a href="">청량리점</a></li>
+                        </ul>
+                        <ul>
+                            <a href="" class="item-repre">수도권점</a>
+                            <li><a href="">인천점</a></li>
+                            <li><a href="">동탄점</a></li>
+                            <li><a href="">구리점</a></li>
+                            <li><a href="">분당점</a></li>
+                            <li><a href="">수원점</a></li>
+                            <li><a href="">안산점</a></li>
+                            <li><a href="">일산점</a></li>
+                            <li><a href="">중동점</a></li>
+                            <li><a href="">평촌점</a></li>
+                        </ul>
+                        <ul>
+                            <a href="" class="item-repre">지방점</a>
+                            <li><a href="">부산본점</a></li>
+                            <li><a href="">광복점</a></li>
+                            <li><a href="">광주점</a></li>
+                            <li><a href="">대구점</a></li>
+                            <li><a href="">대전점</a></li>
+                            <li><a href="">동래점</a></li>
+                            <li><a href="">마산점</a></li>
+                            <li><a href="">상인점</a></li>
+                            <li><a href="">센텀시티점</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">울산점</a></li>
+                            <li><a href="">전주점</a></li>
+                            <li><a href="">창원점</a></li>
+                            <li><a href="">포항점</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sub-list" id="menu2">
+                    <li class="sub-item1"><a href="">롯데갤러리</a></li>
+                    <li class="sub-item1">롯데문화센터</li>
+                    <li class="sub-item1">롯데웨딩</li>
+                </ul>
+                <ul class="sub-list" id="menu3">
+                    <li class="sub-item1">
+                        <div class="cate">
+                            <a href="" class="item-repre">우수고객제도</a>
+                            <a href="">AVENUEL 안내</a>
+                            <a href="">나의 등급 조회</a>
+                            <a href="">THE L.O.V.E 안내</a>
+                        </div>
+                    </li>
+                    <li class="sub-item1">
+                        <ul>
+                            <a href="" class="item-repre">고객 문의/안내</a>
+                            <li><a href="">온라인상담실</a></li>
+                            <li><a href="">상담실안내</a></li>
+                            <li><a href="">분실물안내</a></li>
+                            <li><a href="">자주하는질문</a></li>
+                            <li><a href="">가상계좌</a></li>
+                            <li><a href="">공지사항</a></li>
+                        </ul>
+                        <ul>
+                            <a href="" class="item-repre">서비스 안내</a>
+                            <li><a href="">편의서비스</a></li>
+                            <li><a href="">롯데상품권</a></li>
+                            <li><a href="">L.POINT</a></li>
+                            <li><a href="">롯데백화점 APP 소개</a></li>
+                            <li><a href="">스마트픽</a></li>
+                        </ul>
+                        <ul>
+                            <a href="" class="item-repre">기타</a>
+                            <li><a href="">법인/단체구매</a></li>
+                            <li><a href="">명절배송지 등록</a></li>
+                            <li><a href="">배송조회</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sub-list" id="menu4">
+                    <li class="sub-item1">
+                        <ul>
+                            <a href="" class="item-repre">ESG 추진 체계</a>
+                            <li><a href="">ESG 경영 개요</a></li>
+                            <li><a href="">지속가능경영</a></li>
+                            <li><a href="">고객중심경영</a></li>
+                            <li><a href="">인권경영</a></li>
+                            <li><a href="">대외수상 및 인증</a></li>
+                            <li><a href="">지속가능경영보고서</a></li>
+                        </ul>
+                        <ul>
+                            <a href="" class="item-repre">사회공헌</a>
+                            <li><a href="">전략</a></li>
+                            <li><a href="">활동</a></li>
+                        </ul>
+                        <ul>
+                            <a href="" class="item-repre">컴플라이언스</a>
+                            <li><a href="">컴플라이언스 개요</a></li>
+                            <li><a href="">경영방침</a></li>
+                            <li><a href="">자율준수</a></li>
+                            <li><a href="">자료실</a></li>
+                            <li><a href="">위반신고안내</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">동반성장</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">윤리핫라인</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu-header">
+              <h1 class="logo-wrap">
+                <span class="blind">팝업메뉴 로고</span>
+                <a href="/">
+                  <img src="./assets/images/logo.svg" alt="">
+                </a>
+              </h1>
+              <button class="close">
+                <span class="blind">메뉴창 닫기</span>
+                <i class="closeBtn"></i>
+                <p>close</p>
+              </button>
+            </div>
+      
+            <ul class="mobile-list">
+                <li class="mobile-item">
+                    <a href="" class="mobile-nav">지점안내</a>
+                    <ul class="mobile-sub">
+                        <li><a href="">백화점</a></li>
+                        <li><a href="">아울렛</a></li>
+                        <li><a href="">쇼핑몰</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-item">
+                    <a href="" class="mobile-nav">컬쳐앤라이프</a>
+                    <ul class="mobile-sub">
+                        <li><a href="">롯데갤러리</a></li>
+                        <li><a href="">롯데문화센터</a></li>
+                        <li><a href="">롯데웨딩</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-item">
+                    <a href="" class="mobile-nav">고객 문의/안내</a>
+                    <ul class="mobile-sub">
+                        <li><a href="">온라인상담실</a></li>
+                        <li><a href="">상담실안내</a></li>
+                        <li><a href="">분실물안내</a></li>
+                        <li><a href="">자주하는질문</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-item">
+                    <a href="" class="mobile-nav">기타</a>
+                    <ul class="mobile-sub">
+                        <li><a href="">법인/단체구매</a></li>
+                        <li><a href="">명절배송지 등록</a></li>
+                        <li><a href="">배송조회</a></li>
+                    </ul>
+                </li>
+                </ul>
+          </div>
+    </header>
+    <section class="sc-visual">
+        <div class="group-visual">
+            <div class="img-wrap">
+                <img src="./assets/images/visual1.jpg" alt="">
+            </div>
+        </div>
+        <div class="group-title">
+            <div class="title-area">
+                    <div class="title-wrap">
+                            <p>Enjoy* Your Time<br>at LOTTE</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="sc-news">
+        <div class="sticky-wrap">
+            <div class="swiper">
+                <ul class="swiper-wrapper" data-scroll-opacityX="">
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">01</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news1.jpg" alt="">
+                            <div class="newstxt news1">
+                                <div class="txtwrap">
+                                    <span class="caption">전점</span>
+                                    <strong class="title">
+                                        [2023 크리스마스]
+                                        <br>
+                                        My Dearest Wish
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">02</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news2.jpg" alt="">
+                            <div class="newstxt news2">
+                                <div class="txtwrap">
+                                    <span class="caption">백화점 전점</span>
+                                    <strong class="title">
+                                        [슈퍼뷰티위크]
+                                        <br>
+                                        최대 20+10% 혜택
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">03</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="" class="circle">
+                            <img src="./assets/images/news3.jpg" alt="">
+                            <div class="newstxt news3">
+                                <div class="txtwrap">
+                                    <span class="caption">일부지점</span>
+                                    <strong class="title">
+                                        2023 F/W Fashion Fair
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">04</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news4.jpg" alt="">
+                            <div class="newstxt news4">
+                                <div class="txtwrap">
+                                    <span class="caption">아울렛 전점</span>
+                                    <strong class="title">
+                                        [서프라이스 위크]
+                                        <br>
+                                        연중 최대 쇼핑축제
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">05</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news5.jpg" alt="">
+                            <div class="newstxt news5">
+                                <div class="txtwrap">
+                                    <span class="caption">일부 지점</span>
+                                    <strong class="title">
+                                        코오롱 스포츠
+                                        <br>
+                                        Outdoor Super Week
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">06</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="" class="circle">
+                            <img src="./assets/images/news6.jpg" alt="">
+                            <div class="newstxt news6">
+                                <div class="txtwrap">
+                                    <span class="caption">백화점 전점</span>
+                                    <strong class="title">
+                                        [롯데 레드 페스티발]
+                                        <br>
+                                        멤버들을 위한 쇼핑축제
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">07</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news7.jpg" alt="">
+                            <div class="newstxt news7">
+                                <div class="txtwrap">
+                                    <span class="caption">일부 지점</span>
+                                    <strong class="title">
+                                        [최대 30%혜택]
+                                        <br>
+                                        2023 Best of Beauty
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">08</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news8.jpg" alt="">
+                            <div class="newstxt news8">
+                                <div class="txtwrap">
+                                    <span class="caption">일부 지점</span>
+                                    <strong class="title">
+                                        [Beauty Gift]
+                                        <br>
+                                        완벽한 연말 선물
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">09</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news9.jpg" alt="">
+                            <div class="newstxt news9">
+                                <div class="txtwrap">
+                                    <span class="caption">일부 지점</span>
+                                    <strong class="title">
+                                        [2023 Beauty]
+                                        <br>
+                                        홀리데이 컬렉션
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <p>
+                            <span class="num">10</span>
+                            <span class="type">#Shopping News</span>
+                        </p>
+                        <a href="">
+                            <img src="./assets/images/news10.jpg" alt="">
+                            <div class="newstxt news10">
+                                <div class="txtwrap">
+                                    <span class="caption">일부 지점</span>
+                                    <strong class="title">
+                                        [팝업스토어]
+                                        <br>
+                                        포켓몬스터 윈터빌리지
+                                    </strong>
+                                    <button class="newsbtn">
+                                        Read more
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide" style="padding-top: 2.5%;">
+                        <a href="">
+                            <img src="./assets/images/more-arrow.svg" alt="arrow" class="arrow">
+                            <div class="more-wrap">
+                                <img src="./assets/images/more-more.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- controls -->
+                <button class="btn prev">
+                    <span class="blind">이전슬라이드</span>
+                    <img src="./assets/images/btn-left.svg" alt="">
+                </button>
+                <button class="btn next">
+                    <span class="blind">다음슬라이드</span>
+                    <img src="./assets/images/btn-right.svg" alt="">
+                </button>
+            </div>
+            <h3>
+                <div class="title-line">
+                    <div class="line-wrap">
+                        <div class="word-wrap">
+                            <span class="parent"><span class="child">W</span></span>
+                            <span class="parent"><span class="child">h</span></span>
+                            <span class="parent"><span class="child">a</span></span>
+                            <span class="parent"><span class="child">t</span></span>
+                            <span class="parent"><span class="child">'</span></span>
+                            <span class="parent"><span class="child">s</span></span>
+                        </div>
+                        <div class="word-wrap">
+                            <span class="parent"><span class="child">O</span></span>
+                            <span class="parent"><span class="child">n</span></span>
+                            <span class="parent"><span class="child">?</span></span>
+                        </div>
+                    </div>
+                </div>
+            </h3>
+        </div>
+    </section>
+    <section class="sc-keyword">
+        <div class="container">
+            <div class="content" data-scroll-opacityY="">
+                <div class="left-col">
+                    <h3>
+                        <span class="hash">#</span>
+                        Hot Keyword
+                    </h3>
+                    <p>지금 롯데백화점에서 가장 인기있는 키워드를 만나보세요</p>
+                </div>
+                <div class="right-col">
+                    <ul class="keyword-list">
+                        <li class="keyword-item">
+                            홀리데이 무드로 빛나는 뷰티
+                            <span class="hash reveal">#겨울메이크업</span>
+                            <span class="hash reveal">#홀리데이에디션</span>
+                            <span class="imoji">
+                                <img src="./assets/images/keyword1.png" alt="">
+                                <img src="./assets/images/keyword2.png" alt="">
+                            </span>
+                        </li>
+                        <li class="keyword-item">
+                            긴 겨울을 포근하게 즐기는 방법
+                            <span class="imoji">
+                                <img src="./assets/images/keyword3.png" alt="">
+                                <img src="./assets/images/keyword4.png" alt="">
+                            </span>
+                            <span class="hash reveal">#데일리아우터</span>
+                            <span class="hash reveal">#보온템</span>
+                        </li>
+                        <li class="keyword-item">
+                            완벽한 크리스마스를 위한 모든 것
+                            <span class="hash reveal">#크리스마스기프트</span>
+                            <span class="hash reveal">#파티테이블</span>
+                            <span class="imoji">
+                                <img src="./assets/images/keyword5.png" alt="">
+                                <img src="./assets/images/keyword6.png" alt="">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sc-art">
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="bg3"></div>
+        <div class="container">
+            <div class="indicator">
+                <ul class="indicator-list">
+                    <li class="indicator-item">
+                        <a href="" data-art="#place" class="on" id="placebtn">PLACE</a>
+                    </li>
+                    <li class="indicator-item">
+                        <a href="" data-art="#eat" id="eatbtn">EAT</a>
+                    </li>
+                    <li class="indicator-item">
+                        <a href="" data-art="#culture" id="culturebtn">CULTURE</a>
+                    </li>
+                </ul>
+                <ul class="indicator-desc-wrap">
+                    <li class="indicator-item">새로움을 탐험하는 트랜디 플레이스</li>
+                    <li class="indicator-item" style="margin-bottom: 0.5px;">하루를 특별하게 만드는 잇앤드링크</li>
+                    <li class="indicator-item">일상 속 영감을 더해주는 컬쳐라이프</li>
+                </ul>
+            </div>
+            <div class="group-title">
+                <h3>
+                    <p>
+                        <span class="parent"><span class="child">P</span></span>
+                        <span class="parent"><span class="child">l</span></span>
+                        <span class="parent"><span class="child">a</span></span>
+                        <span class="parent"><span class="child">c</span></span>
+                        <span class="parent"><span class="child">e</span></span>
+                    </p>
+                </h3>
+                <h3>
+                    <p>
+                        <span class="parent"><span class="child">E</span></span>
+                        <span class="parent"><span class="child">a</span></span>
+                        <span class="parent"><span class="child">t</span></span>
+                    </p>
+                </h3>
+                <h3>
+                    <p>
+                        <span class="parent"><span class="child">C</span></span>
+                        <span class="parent"><span class="child">u</span></span>
+                        <span class="parent"><span class="child">l</span></span>
+                        <span class="parent"><span class="child">t</span></span>
+                        <span class="parent"><span class="child">u</span></span>
+                        <span class="parent"><span class="child">r</span></span>
+                        <span class="parent"><span class="child">e</span></span>
+                    </p>
+                </h3>
+            </div>
+            <div class="group-art-wrap on" id="place">
+                <div class="group-art place">
+                    <ul class="left-list">
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/place1.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[아토즈 캠핑]<br>캠퍼를 위한 종합 편집샵</strong>
+                                    <span>프리미엄 아울렛 이천점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/place2.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[파주라기 파크]<br>실물 크기의 거대한 공룡</strong>
+                                    <span>프리미엄 아울렛 파주점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/place3.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[샤롯데 가든]<br>여유로움이 느껴지는 가을</strong>
+                                    <span>백화점 노원점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="right-list">
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/place4.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[골프존 마켓]<br>골프의 모든 것이 한 곳에!</strong>
+                                    <span>백화점 창원점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/place5.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[그랜드 휠]<br>울산의 랜드마크 대관람차</strong>
+                                    <span>백화점 울산점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/place6.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[더 테라스]<br>예술과 힐링의 공존</strong>
+                                    <span>백화점 동탄점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="group-art-wrap" id="eat">
+                <div class="group-art eat">
+                    <ul class="left-list">
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/eat1.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[아웃오브오피스]<br>고품격 양갈비 스테이크</strong>
+                                    <span>프리미엄 아울렛 기흥점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/eat2.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[컨트리 맨즈]<br>최고의 시카고 피자</strong>
+                                    <span>프리미엄 아울렛 김해점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/eat3.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[랍스터바]<br>비주얼과 맛을 한번에!</strong>
+                                    <span>백화점 광주점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="right-list">
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/eat4.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[라그릴리아]<br>새롭게 태어난 이탈리아 요리</strong>
+                                    <span>백화점 분당점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/eat5.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[미즈컨테이너]<br>양 많이!맛있게!</strong>
+                                    <span>백화점 창원점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/eat6.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>[양산도]<br>3대째 이어온 장어 덮밥</strong>
+                                    <span>백화점 동탄점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="group-art-wrap" id="culture">
+                <div class="group-art culture">
+                    <ul class="left-list">
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture1.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>인천점 일상적 판타지 : 오브제가 된 풍경 展</strong>
+                                    <span>인천점</span>
+                                    <p class="min-date">23.10.27(금) ~ 24.1.7(일)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture2.png" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>KNOT KNOT LAND</strong>
+                                    <span>잠실점</span>
+                                    <p class="min-date">10.13(금) ~ 12.10(일)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture3.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>이조흠 개인전 inter_FACE 展</strong>
+                                    <span>광주점</span>
+                                    <p class="min-date">9.27(수) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture4.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>정진운 개인전 COMPASS 展</strong>
+                                    <span>광복점</span>
+                                    <p class="min-date">9.2(토) ~ 10.29(일)</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="right-list">
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture5.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>니키 드 생팔 : Bulletproof! 展</strong>
+                                    <span>인천점</span>
+                                    <p class="min-date">8.31(목) ~ 11.5(일)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture6.png" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>서수현 개인전 My Very Ordinary Things 展</strong>
+                                    <span>동탄점</span>
+                                    <p class="min-date">8.25(금) ~ 10.29(일)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture7.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>ARTLOGUE -Strolling in Artscapes</strong>
+                                    <span>본점</span>
+                                    <p class="min-date">8.30(수) ~ 11.30(목)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="art-item">
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/culture8.jpg" alt="">
+                                </div>
+                                <div class="info-wrap">
+                                    <strong>이강욱 개인전, COSMOS 展</strong>
+                                    <span>본점</span>
+                                    <p class="min-date">8.18(금) ~ 10.31(화)</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sc-life">
+        <div class="container">
+            <div class="group-title">
+                <h3>
+                    <div class="title-wrap">
+                        <span class="parent"><span class="child">L</span></span>
+                        <span class="parent"><span class="child">i</span></span>
+                        <span class="parent"><span class="child">f</span></span>
+                        <span class="parent"><span class="child">e</span></span>
+                        <span class="parent"><span class="child">s</span></span>
+                        <span class="parent"><span class="child">t</span></span>
+                        <span class="parent"><span class="child">y</span></span>
+                        <span class="parent"><span class="child">l</span></span>
+                        <span class="parent"><span class="child">e</span></span>
+                    </div>
+                    <div class="title-wrap">
+                        <span class="parent"><span class="child">L</span></span>
+                        <span class="parent"><span class="child">A</span></span>
+                        <span class="parent"><span class="child">B</span></span>
+                    </div>
+                </h3>
+                <a href="" class="allbtn">
+                    <span>ALL CONTENTS</span>
+                </a>
+            </div>
+            <ul class="life-list">
+                <li class="life-item">
+                    <a href="">
+                        <div class="img-wrap">
+                            <img src="./assets/images/life1.jpg" alt="">
+                        </div>
+                        <div class="info-wrap">
+                            <strong>[10/26]김학민의 오페라·뮤지컬 콘서트 <오르페오와 유리디체></strong>
+                            <div class="info">
+                                <span>본점</span>
+                                <span>10.26(목)</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="life-item">
+                    <a href="">
+                        <div class="img-wrap">
+                            <img src="./assets/images/life2.jpg" alt="">
+                        </div>
+                        <div class="info-wrap">
+                            <strong>[10/21]흥버튼과 함께하는 성공적인 리더의 언어</strong>
+                            <div class="info">
+                                <span>광복점</span>
+                                <span>10.21(토)</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="life-item">
+                    <a href="">
+                        <div class="img-wrap">
+                            <img src="./assets/images/life3.jpg" alt="">
+                        </div>
+                        <div class="info-wrap">
+                            <strong>[11/9] 이정한 도슨트의 <시대를 빚은 우리 도자기></strong>
+                            <div class="info">
+                                <span>본점</span>
+                                <span>11.9(목)</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="life-item">
+                    <a href="">
+                        <div class="img-wrap">
+                            <img src="./assets/images/life4.jpg" alt="">
+                        </div>
+                        <div class="info-wrap">
+                            <strong>[10/28] 김겨울 작가의 읽고 쓰며 나를 돌아보기</strong>
+                            <div class="info">
+                                <span>본점</span>
+                                <span>10.28(토)</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="sc-magazine">
+        <div class="magazine-wrap">
+            <div class="head-wrap">
+                <h3>
+                    <span class="parent"><span class="child">M</span></span>
+                    <span class="parent"><span class="child">a</span></span>
+                    <span class="parent"><span class="child">g</span></span>
+                    <span class="parent"><span class="child">a</span></span>
+                    <span class="parent"><span class="child">z</span></span>
+                    <span class="parent"><span class="child">i</span></span>
+                    <span class="parent"><span class="child">n</span></span>
+                    <span class="parent"><span class="child">e</span></span>
+                </h3>
+                <a href="" class="allbtn">
+                    <span>ALL CONTENTS</span>
+                </a>
+            </div>
+            <div class="swiper list-swiper" data-scroll-opacityX="">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide magazine1">
+                        <img src="./assets/images/magazine1.jpg" alt="">
+                    </li>
+                    <li class="swiper-slide magazine2">
+                        <img src="./assets/images/magazine2.jpg" alt="">
+                    </li>
+                    <li class="swiper-slide magazine3">
+                        <img src="./assets/images/magazine3.jpg" alt="">
+                    </li>
+                    <li class="swiper-slide magazine4">
+                        <img src="./assets/images/magazine4.jpg" alt="">
+                    </li>
+                    <li class="swiper-slide magazine5">
+                        <img src="./assets/images/magazine5.jpg" alt="">
+                    </li>
+                    <li class="swiper-slide magazine6">
+                        <img src="./assets/images/magazine6.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="magazine-cover">
+            <div class="swiper bg-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="" class="magazine1">
+                            <img src="./assets/images/magazine1.jpg" alt="" data-swiper-parallax-x="100%">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" class="magazine2">
+                            <img src="./assets/images/magazine2.jpg" alt="" data-swiper-parallax-x="100%">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" class="magazine3">
+                            <img src="./assets/images/magazine3.jpg" alt="" data-swiper-parallax-x="100%">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" class="magazine4">
+                            <img src="./assets/images/magazine4.jpg" alt="" data-swiper-parallax-x="100%">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" class="magazine5">
+                            <img src="./assets/images/magazine5.jpg" alt="" data-swiper-parallax-x="100%">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="" class="magazine6">
+                            <img src="./assets/images/magazine6.jpg" alt="" data-swiper-parallax-x="100%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sc-insta">
+        <h3>
+            <span class="title-insta">Follow Instagram</span>
+            <strong class="title-shopping">@Lotteshopping</strong>
+        </h3>
+        <div class="group-insta">
+            <div class="marquee upper">
+                <div class="upper-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="upper-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="upper-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="upper-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta1-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="marquee downer">
+                <div class="downer-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="downer-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="downer-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="downer-wrap">
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="insta-list">
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-8.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="insta-item">
+                            <a href="">
+                                <img src="./assets/images/insta2-9.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="group-top">
+                <div class="fttop-wrap">
+                    <h2 class="logo">
+                        <img src="./assets/images/logo2.svg" alt="롯데백화점로고">
+                    </h2>
+                    <ul class="fttop-list">
+                        <li class="fttop-item">
+                            <a href="">
+                                자주하는질문
+                            </a>
+                        </li>
+                        <li class="fttop-item">
+                            <a href="">
+                                온라인상담실
+                            </a>
+                        </li>
+                        <li class="fttop-item">
+                            <a href="">
+                                상담실안내
+                            </a>
+                        </li>
+                        <li class="fttop-item">
+                            <a href="">
+                                분실물안내
+                            </a>
+                        </li>
+                        <li class="fttop-item">
+                            <a href="">
+                                가상계좌
+                            </a>
+                        </li>
+                        <li class="fttop-item">
+                            <a href="">
+                                공지사항
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="family-box">
+                    <button>
+                        <span>Family Site</span>
+                    </button>
+                </div>
+            </div>
+            <div class="group-lang">
+                <ul class="lang-list">
+                    <li class="lang-item">
+                        <a href="">
+                            <span><img src="./assets/images/lang_kr.png" alt="한국어"></span>
+                        </a>
+                    </li>
+                    <li class="lang-item">
+                        <a href="">
+                            <span><img src="./assets/images/lang_eng.png" alt="영어"></span>
+                        </a>
+                    </li>
+                    <li class="lang-item">
+                        <a href="">
+                            <span><img src="./assets/images/lang_jpn.png" alt="일본어"></span>
+                        </a>
+                    </li>
+                    <li class="lang-item">
+                        <a href="">
+                            <span><img src="./assets/images/lang_chs.png" alt="중국어"></span>
+                        </a>
+                    </li>
+                    <li class="lang-item">
+                        <a href="">
+                            <span><img src="./assets/images/lang_cht.png" alt="중국어"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="group-mid">
+                <ul class="ftmid-list">
+                    <li class="ftmid-item">
+                        <a href="">
+                            회사소개
+                        </a>
+                    </li>
+                    <li class="ftmid-item">
+                        <a href="">
+                            이용약관
+                        </a>
+                    </li>
+                    <li class="ftmid-item">
+                        <a href="">
+                            인재채용
+                        </a>
+                    </li>
+                    <li class="ftmid-item">
+                        <a href="">
+                            사이트맵
+                        </a>
+                    </li>
+                    <li class="ftmid-item">
+                        <a href="">
+                            영상정보처리기기 운영 / 관리방침
+                        </a>
+                    </li>
+                    <li class="ftmid-item">
+                        <a href="">
+                            개인정보처리방침
+                        </a>
+                    </li>
+                    <li class="ftmid-item">
+                        <a href="">
+                            윤리 핫라인
+                        </a>
+                    </li>
+                </ul>
+                <div class="brand-wrap">
+                    <a href="" class="lottemall">
+                        <img src="./assets/images/mall-logo.svg" alt="lottemall">
+                    </a>
+                    <a href="" class="coranshop">
+                        <img src="./assets/images/coranshop.svg" alt="coranshop">
+                    </a>
+                    <a href="" class="elstyle">
+                        <img src="./assets/images/elstyle.svg" alt="elstyle">
+                    </a>
+                </div>
+                <ul class="socialmedia-list">
+                    <li class="social-item">
+                        <a href="">
+                            <img src="./assets/images/instagram.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="">
+                            <img src="./assets/images/youtube.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="">
+                            <img src="./assets/images/facebook.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="">
+                            <img src="./assets/images/blog.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="group-bot">
+                <div class="info">
+                    <span>대표이사 정준호</span>
+                    <address>서울특별시 중구 남대문로 81 (소공동 1)</address>
+                    <span>대표전화:<a href=""> 1577-0001</a></span>
+                    <span>L.POINT 콜센터:<a href=""> 1899-8900</a></span>
+                </div>
+                <div class="award">
+                    <p>
+                        <img src="./assets/images/ncsi.svg" alt="">
+                        <span>국가고객만족도 백화점 부문<br>2003년-2022년</span>
+                    </p>
+                    <p>
+                        <img src="./assets/images/nbci.svg" alt="">
+                        <span>국가브랜드경쟁력지수 백화점 업종<br>2004년-2022년</span>
+                    </p>
+                    <p>
+                        <img src="./assets/images/ccm.svg" alt="">
+                        <span>소비자중심경영<br>인증기업</span>
+                    </p>
+                </div>
+                <span class="copyright">&copy; 2023 LOTTE SHOPPING CO. LTD. ALL RIGHTS RESERVED.</span>
+            </div>
+        </div>
+    </footer>
+    <a href="#header" class="totop">
+        <span>T</span>
+        <span>o</span>
+        <span>p</span>
+        <svg role="presentation" width="23" height="36" viewBox="0 0 23 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.9339 0L11.0139 0.164319L10.0613 0C10.0418 0.112676 7.84489 11.4695 0 15.0704L1.25402 17.615C5.46809 15.6808 8.25317 12.0282 10.0418 8.58685L10.0418 36H12.9582L12.9582 8.59624C14.7468 12.0329 17.5319 15.6808 21.746 17.615L23 15.0704C15.1746 11.4789 12.9533 0.112676 12.9339 0Z" fill="white"></path>
+        </svg>
+    </a>
+</body>
+</html>
